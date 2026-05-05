@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #111;
+    color: white;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: black;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+/* Button */
+.btn {
+    background: purple;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact */
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    border: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
